@@ -27,6 +27,9 @@ public class Hello {
 	public String sayHelloHTML()
 	{
 		String resource = "<h1>Hi, This is from HTML</h1>";
+		System.out.println("Hello");
 		return resource;
+		
 	}
+	
 }
